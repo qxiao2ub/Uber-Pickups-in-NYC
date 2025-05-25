@@ -2,7 +2,6 @@
 """
 Created on Sat Mar 28 20:09:45 2020
 
-@author: Ao Yang
 """
 
 import os
@@ -14,7 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
 # Import dataset from the csv file
-os.chdir(r"C:\Users\44399\OneDrive - Office Everyday\桌面\Spring 2020\STL 504\Project\Data")
+os.chdir(r"C:\Users\44399\OneDrive - Office Everyday")
 data = pd.read_csv("Uber-Jan-Feb-FOIL.csv")
 
 # First do data exploration and make a scatter plot.
